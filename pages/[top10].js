@@ -123,16 +123,7 @@ export default function top10Page({ top10 }) {
               ))}
             </TableBody>
 
-            {/* { top10.gridData.map((data) => (
-      
-      
-      <span key = {data.Rank}>
-      <h1>{data.Rank}</h1>
-      
-        
-      </span>
-    ))
-  } */}
+            
           </Table>
         </TableContainer>
 
