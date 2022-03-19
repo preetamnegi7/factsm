@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  
 }
 
 .main {
@@ -16,9 +17,10 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 5px solid;
   justify-content: center;
   align-items: center;
+  background-color: #FFCC00;
 }
 
 .footer a {
@@ -67,6 +69,7 @@
 
 .grid {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -104,13 +107,11 @@
 }
 
 .logo {
-  height: 1em;
   margin-left: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
+
+
