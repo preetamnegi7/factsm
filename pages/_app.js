@@ -21,6 +21,7 @@ import * as gtag from '../lib/gtag'
 
   return (
     <>
+    
       {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Script
         strategy="afterInteractive"
@@ -40,10 +41,11 @@ import * as gtag from '../lib/gtag'
           `,
         }}
       />
-      <Component {...pageProps} />
       <CssBaseline />
   <Navbar/>
+      <Component {...pageProps} />
   <Footer/>
+ 
     </>
   )
 }
