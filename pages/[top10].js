@@ -79,7 +79,7 @@ export default function top10Page({ top10 }) {
                 <TableCell
                   align="center"
                   colSpan={12}
-                  style={{ backgroundColor: "#039be5", color: "white" }}
+                  style={{ backgroundColor: "#1f6fe5", color: "white" }}
                 >
                   <h2>Table of {top10.mainHeading}</h2>
                 </TableCell>

@@ -31,7 +31,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #1f6fe5;
   text-decoration: none;
 }
 
@@ -91,7 +91,7 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
+  color: #1f6fe5;
   border-color: #0070f3;
 }
 
@@ -111,6 +111,10 @@
   align-items: center;
   justify-content: center;
   justify-self: center;
+  transition: transform .2s;
+}
+.logo:hover {
+  transform: scale(1.1);
 }
 
 
