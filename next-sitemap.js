@@ -1,5 +1,5 @@
-const siteUrl = "https://factsmantra.com";
-
 module.exports = {
-    siteUrl,
-};
+    siteUrl: 'https://factsmantra.com',
+    generateRobotsTxt: true,
+    sitemapSize: 7000,
+  }
